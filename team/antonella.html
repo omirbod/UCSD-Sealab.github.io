@@ -1,0 +1,11 @@
+---
+layout: layout
+title: "Antonella's Project Notebook"
+---
+<section class="content">
+  <h1>Antonella's Project Notebook</h1>
+
+{% assign team_categories = site.categories['team'] | filter_categories_by_primary_category %}
+{% for category in team_categories %}{% endfor %}
+
+</section>
